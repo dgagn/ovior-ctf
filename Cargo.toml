@@ -1,0 +1,17 @@
+[workspace]
+members = [
+  "core"
+]
+
+[package]
+name = "ovior"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ovior"
+path = "src/main.rs"
+
+[dependencies]
+core = { path = "core" }
+
